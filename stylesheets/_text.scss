@@ -1,0 +1,72 @@
+.text{
+    padding: 2rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    &__firstline{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 1rem;
+        justify-content: flex-start;
+        align-items: center;
+
+        .bubble-text{
+            text-transform: uppercase;
+            font-weight: $font-weight-700;
+            background-color: $very-dark-blue;
+            color:$light-grayish-blue;
+            padding: 0.5rem;
+            border-radius: 0.75rem;
+            font-family: $font-secondary;
+
+        }
+
+        .grey-text{
+            font-family: $font-secondary;
+            text-transform: uppercase;
+            color:$dark-grayish-blue ;
+            font-weight: $font-weight-700;
+            margin-left: 0.5rem;
+            letter-spacing: 3px;
+        }
+    }
+
+    .main-heading{
+        font-family: $font-secondary;
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    p{
+        margin-top: 0.5rem;
+        color:$grayish-blue ;
+        line-height: 1.5;
+    }
+
+    &__lastline{
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button{
+            background-color:$primary-color;
+            border: 0;
+            text-transform: uppercase;
+            color: white;
+            font-family: $font-secondary;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+
+        }
+        .grey-text{
+            font-family: $font-secondary;
+            text-transform: uppercase;
+            color:$dark-grayish-blue ;
+            font-weight: $font-weight-700;
+        }
+    }
+}

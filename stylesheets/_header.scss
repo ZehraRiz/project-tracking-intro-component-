@@ -1,0 +1,92 @@
+header{
+    width: 100%;
+    padding: 1rem;
+
+    .logo{
+        float: left;
+    }
+
+    .hamburger-icon{
+        float: right;
+        
+        &.dissapear{
+            display: none;
+        }
+    }
+
+    .close-icon{
+        display: none;
+        float: right;
+        &.appear{
+            display: inherit;
+        }
+        
+
+       
+    }
+
+ 
+.nav {
+    display: none;
+    position: fixed;
+    background: white;
+    text-align: center;
+    top: 10%;
+	left: 20px;
+    right:20px;
+    height: 35%;
+    box-shadow: -1px 1px 10px 0px $very-dark-blue;
+
+    &.appear{
+        display: inherit;
+    }
+
+    &__list{
+        margin-top: 10px;
+        list-style-type: none;
+    }
+
+    &__item{
+        text-transform: uppercase;
+        padding: 15px;
+
+      
+     
+
+    &-link{
+        font-family:$font-secondary ;
+        font-weight: $font-weight-700;
+        color: black;
+        text-decoration: none;
+
+        &:hover{
+            text-decoration: underline  !important;
+        }
+        
+      
+
+        &.grey{
+            color:$grayish-blue;
+        }
+    }
+
+&.login{
+    padding-top: 3px;
+
+}
+
+   
+}
+
+    hr{
+        margin-left: 10%;
+        width: 80%;
+        
+    }
+
+
+}
+
+
+}
+

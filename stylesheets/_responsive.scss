@@ -1,0 +1,88 @@
+@include  media-md{
+
+
+  
+
+    header{
+
+        .logo{
+            padding: 1rem;
+            padding-left: 3rem;
+
+        }
+     
+        
+        .hamburger-icon, .close-icon{
+            display: none;
+        }
+
+        .nav{
+            display: inline;
+            position: relative;
+            background: transparent;
+            text-align: right;
+            padding: 2rem;
+            padding-right: 3rem;
+    position: fixed;
+    top: 0%;
+	left: 0px;
+    right:0px;
+    box-shadow: none;
+
+            &__item{
+                display: inline;
+                hr{
+                    display: none;
+                }
+
+                &.login{
+                    margin-left: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .text{
+        display: inline-block;
+        width: 50%;
+        padding-left: 4rem;
+
+        .main-heading{
+            font-size: 70px;
+        }
+
+        .p{
+            margin-top: 1rem;
+        }
+
+        .text__lastline{
+            margin-top: 2em;
+            justify-content: center;
+
+            button , .grey-text{
+                margin: 0px 8px;
+            }
+
+        }
+    }
+
+    .image{
+        position: relative;
+        float: right; 
+        width: 50vw;
+        height: 60vh;
+        margin-top: 100px;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        /* center all inline content */
+        text-align: center;
+    }
+
+}
+
+
