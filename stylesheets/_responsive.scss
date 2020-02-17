@@ -1,8 +1,5 @@
 @include  media-md{
 
-
-  
-
     header{
 
         .logo{
@@ -22,11 +19,11 @@
             background: transparent;
             text-align: right;
             padding: 2rem;
-            padding-right: 3rem;
+           
     position: fixed;
     top: 0%;
 	left: 0px;
-    right:0px;
+    right:100px;
     box-shadow: none;
 
             &__item{
@@ -64,7 +61,14 @@
             }
 
         }
-    }
+
+       
+    } 
+    
+    .background{
+            width: 50vw;
+            height: 50vh;
+        }
 
     .image{
         position: relative;
